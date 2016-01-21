@@ -38,7 +38,7 @@ refer to the wiki for [Installation](https://github.com/P0cL4bs/WiFi-Pumpkin/wik
 
 ### Transparent Proxy
  transparent proxies that you can use to intercept and manipulate HTTP traffic modifying requests and responses, that allow to inject javascripts into the targets visited.  You can easily implement a module to inject data into pages creating a python file in directory "Proxy" automatically will be listed on PumpProxy tab.
-###### PluginsProxy Demo:
+### PluginsProxy Demo:
  the following is a sample module that injects some contents into the <head> tag to set blur filter on body html page :
  ``` python
 from Plugin import PluginProxy
