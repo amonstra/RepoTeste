@@ -1,4 +1,3 @@
-![logo](https://dl.dropboxusercontent.com/u/97321327/evil/logo.png)
 WiFi-Pumpkin
 ---
 [![build](https://travis-ci.org/P0cL4bs/WiFi-Pumpkin.svg)](https://travis-ci.org/P0cL4bs/WiFi-Pumpkin/)
@@ -34,15 +33,15 @@ refer to the wiki for [Installation](https://github.com/P0cL4bs/WiFi-Pumpkin/wik
 * DNS Spoof 
 
 ### Plugins
-- [net-creds](https://github.com/DanMcInerney/net-creds) - sniff passwords and hashes from an interface or pcap file
+- [net-creds](https://github.com/DanMcInerney/net-creds) - Sniff passwords and hashes from an interface or pcap file
 - [dns2proxy](https://github.com/LeonardoNve/dns2proxy) - This tools offer a different features for post-explotation once you change the DNS server to a Victim.
-- [sslstrip](https://github.com/xtr4nge/sslstrip) - sslstrip is a MITM tool that implements Moxie Marlinspike's SSL stripping 
+- [sslstrip](https://github.com/xtr4nge/sslstrip) - Sslstrip is a MITM tool that implements Moxie Marlinspike's SSL stripping 
 attacks by xtr4nge based version
 
 ### Transparent Proxy
- transparent proxies that you can use to intercept and manipulate HTTP traffic modifying requests and responses, that allow to inject javascripts into the targets visited.  You can easily implement a module to inject data into pages creating a python file in directory "Proxy" automatically will be listed on PumpProxy tab.
+ Transparent proxies that you can use to intercept and manipulate HTTP traffic modifying requests and responses, that allow to inject javascripts into the targets visited.  You can easily implement a module to inject data into pages creating a python file in directory "Proxy" automatically will be listed on PumpProxy tab.
 ### Plugins Example
- the following is a sample module that injects some contents into the <head> tag to set blur filter on body html page :
+ The following is a sample module that injects some contents into the <head> tag to set blur filter into body html page:
  ``` python
 from Plugin import PluginProxy
 
