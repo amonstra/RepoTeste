@@ -33,9 +33,10 @@ refer to the wiki for [Installation](https://github.com/P0cL4bs/WiFi-Pumpkin/wik
 * DNS Spoof 
 
 ### Plugins
-- [net-creds](https://github.com/DanMcInerney/net-creds)
-- [dns2proxy](https://github.com/LeonardoNve/dns2proxy)
-- [sslstrip](https://github.com/xtr4nge/sslstrip)
+- [net-creds](https://github.com/DanMcInerney/net-creds) - sniff passwords and hashes from an interface or pcap file
+- [dns2proxy](https://github.com/LeonardoNve/dns2proxy) - This tools offer a different features for post-explotation once you change the DNS server to a Victim.
+- [sslstrip](https://github.com/xtr4nge/sslstrip) - sslstrip is a MITM tool that implements Moxie Marlinspike's SSL stripping 
+attacks by xtr4nge based version
 
 ### Transparent Proxy
  transparent proxies that you can use to intercept and manipulate HTTP traffic modifying requests and responses, that allow to inject javascripts into the targets visited.  You can easily implement a module to inject data into pages creating a python file in directory "Proxy" automatically will be listed on PumpProxy tab.
@@ -45,7 +46,7 @@ refer to the wiki for [Installation](https://github.com/P0cL4bs/WiFi-Pumpkin/wik
 from Plugin import PluginProxy
 
 class blurpage(PluginProxy):
-    ''' this module proxy set blur on page response'''
+    ''' this module proxy set blur into body page html response'''
     _name          = 'blur_page'
     _activated     = False
     _instance      = None
