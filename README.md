@@ -1,11 +1,12 @@
 ![logo](https://dl.dropboxusercontent.com/u/97321327/evil/logo.png)
+
 WiFi-Pumpkin
 ---
 [![build](https://travis-ci.org/P0cL4bs/WiFi-Pumpkin.svg)](https://travis-ci.org/P0cL4bs/WiFi-Pumpkin/)
 
 Framework for Rogue Wi-Fi Access Point Attack
 ### Description
-WiFi-Pumpkin is a security tool that provides the Rogue access point to Man-In-The-Middle and network attacks. Purporting to provide wireless Internet services, but snooping on the traffic.
+WiFi-Pumpkin is a security tool that provides the Rogue access point to Man-In-The-Middle and network attacks.
 ### Installation
 
 Kali 2.0/WifiSlax 4.11.1/Parrot 2.0.5
@@ -79,6 +80,6 @@ class blurpage(PluginProxy):
  
 ### Screenshots
 ![Tool Home](https://dl.dropboxusercontent.com/u/97321327/evil/evil7.3.png)
-![Tool demo](https://dl.dropboxusercontent.com/u/97321327/evil/demo7.1.png)
+![Tool demo](https://dl.dropboxusercontent.com/u/97321327/evil/demo7.3.png)
 ### Issues
 Find a bug? Want more features?  Let us know! Please send [file an issue](https://github.com/P0cL4bs/WiFi-Pumpkin/issues/new) 
